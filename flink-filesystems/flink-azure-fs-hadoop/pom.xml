@@ -116,7 +116,6 @@ under the License.
 							<goal>shade</goal>
 						</goals>
 						<configuration>
-							<shadeTestJar>false</shadeTestJar>
 							<artifactSet>
 								<includes>
 									<include>*:*</include>
@@ -194,9 +193,6 @@ under the License.
 										<exclude>mozilla/**</exclude>
 										<exclude>META-INF/maven/**</exclude>
 										<exclude>META-INF/LICENSE.txt</exclude>
-										<exclude>META-INF/*.SF</exclude>
-										<exclude>META-INF/*.DSA</exclude>
-										<exclude>META-INF/*.RSA</exclude>
 									</excludes>
 								</filter>
 							</filters>
