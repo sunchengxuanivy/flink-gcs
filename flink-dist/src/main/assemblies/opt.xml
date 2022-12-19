@@ -90,6 +90,13 @@
 		</file>
 
 		<file>
+			<source>../flink-filesystems/flink-gs-fs-hadoop/target/flink-gs-fs-hadoop-${project.version}.jar</source>
+			<outputDirectory>opt/</outputDirectory>
+			<destName>flink-gs-fs-hadoop-${project.version}.jar</destName>
+			<fileMode>0644</fileMode>
+		</file>
+
+		<file>
 			<source>../flink-filesystems/flink-swift-fs-hadoop/target/flink-swift-fs-hadoop-${project.version}.jar</source>
 			<outputDirectory>opt/</outputDirectory>
 			<destName>flink-swift-fs-hadoop-${project.version}.jar</destName>
